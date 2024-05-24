@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:background="@drawable/bg2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profil"
+            android:clickable="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="35dp"
+            android:src="@drawable/pp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/tpks"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/tpks"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.046"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Welcome"
+            android:textColor="@color/Blue"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/profil"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tpks"
+            app:layout_constraintVertical_bias="0.844" />
+
+        <TextView
+            android:id="@+id/namauser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/Blue"
+            android:text=""
+            android:textSize="21sp"
+            app:layout_constraintBottom_toBottomOf="@+id/Welcome"
+            app:layout_constraintStart_toEndOf="@+id/Welcome"
+            app:layout_constraintTop_toTopOf="@+id/Welcome" />
+
+
+        <GridLayout
+            android:id="@+id/gridlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="60dp"
+            android:columnCount="1"
+            android:rowCount="3"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profil"
+            app:layout_constraintVertical_bias="1.0">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/scan"
+                android:layout_width="159dp"
+                android:layout_height="159dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="62dp"
+                        android:layout_height="62dp"
+                        android:src="@drawable/scan" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Scan Here"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/petaApar"
+                android:layout_width="159dp"
+                android:layout_height="159dp"
+                android:layout_margin="16dp"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="62dp"
+                        android:layout_height="62dp"
+                        android:src="@drawable/map" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Apar Map"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+        </GridLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">PIC</string>
+    <string name="Login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signuphere">Dont Have Account?<u>Signuphere</u> </string>
+    <string name="Signup">SignUp</string>
+    <string name="fullname">Fullname</string>
+    <string name="email">Email</string>
+    <string name="loginhere">Already have Account? <u> Login</u></string>
+    <string name="id">ID</string>
+    <string name="nama">Nama</string>
+    <string name="tempat">Tempat</string>
+    <string name="jenis_apar">Jenis Apar</string>
+    <string name="update">Update</string>
+    <string name="profile">MyProfile</string>
+    <string name="logout">Logout</string>
+    <string name="edit">Edit</string>
+    <string name="jabatan">Jabatan</string>
+    <string name="ADD">add</string>
+    <string name="Save">save</string>
+    <string name="Kode">Kode</string>
+    <string name="Expired">Expired Date</string>
+    <string name="Inspeksi">Tanggal Inspeksi</string>
+    <string name="berat"> Berat</string>
+    <string name="handle"> Handle</string>
+    <string name="pin"> Pin Segel</string>
+    <string name="tekanan"> Tekanan</string>
+    <string name="selang"> Selang</string>
+    <string name="label_bagus">\u2713</string>
+    <string name="label_rusak">x</string>
+    <string name="Keterangan"> Keterangan</string>
+    <string name="delete">Delete</string>
+    <string name="Lokasi"> Lokasi</string>
+    <string name="Tabung">Tabung</string>
+    <string name="penempatan"> Penempatan</string>
+    <string name="Identifikasi1"> Instruksi Penggunaan APAR</string>
+    <string name="Identifikasi2"> Striker/Label APAR</string>
+    <string name="Inspeksinow">Inspeksi</string>
+
+</resources>

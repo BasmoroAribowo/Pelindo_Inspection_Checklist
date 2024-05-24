@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".denah">
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cy01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#673AB7"
+                android:text="CY 01"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/cy02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#3F51B5"
+                android:text="CY 02"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cy05"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#2196F3"
+                android:text="CY 05"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/cyd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00BCD4"
+                android:text="CY Domestik"
+                android:textSize="20sp"
+                android:elevation="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cfs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#009688"
+                android:text="CFS"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/crlt2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#4CAF50"
+                android:text="Control Room Lt.2"
+                android:textSize="20sp"
+                android:elevation="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/crtl3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#8BC34A"
+                android:text="Contol Room Lt.3"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tpsm1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#CDDC39"
+                android:text="Gedung TPSM Lt.1"
+                android:textSize="20sp"
+                android:elevation="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tpsm2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FFEB3B"
+                android:text="Gedung TPSM Lt.2"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tpsm3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FFC107"
+                android:text="Gedung TPSM Lt.3"
+                android:textSize="20sp"
+                android:elevation="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/teknik1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:text="Teknik Lt.1"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/teknik2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF5722"
+                android:text="Teknik Lt.2"
+                android:textSize="20sp"
+                android:elevation="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/longroom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#F44336"
+                android:text="LongRoom"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/work"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#E91E63"
+                android:text="Workshop"
+                android:textSize="20sp"
+                android:elevation="50dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
